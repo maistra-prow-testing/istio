@@ -416,7 +416,7 @@ func multipleRequest(server *bootstrap.Server, inc bool, nclients,
 			}
 			defer adsc.Close()
 			adsc.Watch()
-			_, err = adsc.Wait("rds", 5*time.Second)
+			_, err = adsc.Wait("rds", 10*time.Second)
 			if err != nil {
 				errChan <- errors.New("failed to get initial rds" + err.Error())
 				wgConnect.Done()
