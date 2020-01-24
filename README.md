@@ -6,8 +6,6 @@ An open platform to connect, manage, and secure microservices.
 - [Repositories](#repositories)
 - [Issue management](#issue-management)
 
-In addition, here are some other documents you may wish to read:
-
 - [Istio Community](https://github.com/istio/community) - describes how to get involved and contribute to the Istio project
 - [Istio Developer's Guide](https://github.com/istio/istio/wiki/Dev-Guide) - explains how to set up and use an Istio development environment
 - [Project Conventions](https://github.com/istio/istio/wiki/Dev-Conventions) - describes the conventions we use within the code base
