@@ -91,8 +91,8 @@ fi
 
 # Normally set by the Makefile.
 ISTIO_ENVOY_VERSION=${ISTIO_ENVOY_VERSION:-${PROXY_REPO_SHA}}
-ISTIO_ENVOY_DEBUG_URL=${ISTIO_ENVOY_DEBUG_URL:-https://storage.googleapis.com/istio-build/proxy/envoy-debug-${ISTIO_ENVOY_VERSION}.tar.gz}
-ISTIO_ENVOY_RELEASE_URL=${ISTIO_ENVOY_RELEASE_URL:-https://storage.googleapis.com/istio-build/proxy/envoy-alpha-${ISTIO_ENVOY_VERSION}.tar.gz}
+ISTIO_ENVOY_DEBUG_URL=${ISTIO_ENVOY_DEBUG_URL:-https://storage.googleapis.com/maistra-prow-testing/proxy/envoy-debug-${ISTIO_ENVOY_VERSION}.tar.gz}
+ISTIO_ENVOY_RELEASE_URL=${ISTIO_ENVOY_RELEASE_URL:-https://storage.googleapis.com/maistra-prow-testing/proxy/envoy-alpha-${ISTIO_ENVOY_VERSION}.tar.gz}
 # TODO Change url when official envoy release for MAC is available
 ISTIO_ENVOY_MAC_RELEASE_URL=${ISTIO_ENVOY_MAC_RELEASE_URL:-https://github.com/istio/proxy/releases/download/1.0.2/istio-proxy-1.0.2-macos.tar.gz}
 
