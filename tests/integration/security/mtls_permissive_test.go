@@ -84,7 +84,7 @@ func verifyListener(listener *xdsapi.Listener, t *testing.T) error {
 func TestAuthnPermissive(t *testing.T) {
 	framework.NewTest(t).
 		// TODO(incfly): make test able to run both on k8s and native when galley is ready.
-		RequiresEnvironment(environment.Native).
+		RequiresEnvironment(environment.Kube).
 		Run(func(ctx framework.TestContext) {
 
 			env := ctx.Environment().(*native.Environment)
