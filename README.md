@@ -3,7 +3,7 @@
 [![codecov.io](https://codecov.io/github/istio/istio/coverage.svg?branch=release-1.4)](https://codecov.io/github/istio/istio?branch=release-1.4)
 [![GolangCI](https://golangci.com/badges/github.com/istio/istio.svg)](https://golangci.com/r/github.com/istio/istio)
 
-# Istio
+# Istiotest
 
 An open platform to connect, manage, and secure microservices.
 
