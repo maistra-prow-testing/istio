@@ -5,7 +5,7 @@
 
 # Istio
 
-An open platform to connect, manage, and secure microservices.
+An open platform to manage, and secure microservices.
 
 - For in-depth information about how to use Istio, visit [istio.io](https://istio.io)
 - To ask questions and get assistance from our community, visit [discuss.istio.io](https://discuss.istio.io)
